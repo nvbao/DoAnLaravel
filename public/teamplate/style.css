@@ -1,0 +1,258 @@
+.img-1{
+    position: relative;
+    height: 1000px;
+    background-image: url(img/1.jpg);
+    background-size: cover;
+}
+.text-1{
+    position: absolute;
+    top: 2px;
+    left: 65px;
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-2{
+    margin: 22px;
+    text-decoration: none;
+    color: white;
+}
+.text-3{
+    margin: 22px;
+    text-decoration: none;
+    color: white;
+}
+.text-4{
+    margin: 22px;
+    text-decoration: none;
+    color: white;
+}
+.text-5{
+    margin: 22px;
+    text-decoration: none;
+    color: white;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 30px;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-6{
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 66px;
+    padding: 13px;
+   font-family: Arial, Helvetica, sans-serif;
+   color:  white;
+}
+.text-7{
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   color:  white;
+
+}
+.bigtext
+{
+padding: 150px;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.cricle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 91px;
+}
+.cricle-1{
+    border: 2px solid white;
+    border-radius: 100%;
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    margin: 15px;
+}
+.cricle-2{
+    border: 2px solid white;
+    border-radius: 100%;
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    margin: 15px;
+}
+.cricle-3{
+    border: 2px solid white;
+    border-radius: 100%;
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    margin: 15px;
+}
+.cricle-4{
+    border: 2px solid white;
+    border-radius: 100%;
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    margin: 15px;
+}
+.text-8{
+    border: 3px solid white;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    width: 10%;
+    padding: 10px;
+    border-radius: 5px;  
+}
+a.text-2:hover{
+    border-radius: 5px;
+    color: black;
+     background-color: white;
+}a.text-3:hover{
+    border-radius: 5px;
+    color: black;
+     background-color: white;
+}a.text-4:hover{
+    border-radius: 5px;
+    color: black;
+     background-color: white;
+}a.text-5:hover{
+    border-radius: 5px;
+    color: black;
+     background-color: white;
+}
+.text-9{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.text-10{
+    margin-top: 50px;
+     text-align: center;
+    color: rgba(0, 0, 0, 0.459);
+}
+.background{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.img-3{
+     margin-top: 85px;
+    padding: 44px;
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+
+}
+.text-11{
+    padding: 25px;
+    text-align: center;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#row-1{
+    display: flex;
+    justify-content: space-around;
+    font-size: 45px;
+    color: white;
+}
+.text-12{
+    text-align: center;
+    margin: 60px;
+}
+.text-13{
+    text-align: center;
+    margin: 60px;
+}
+.text-14{
+    text-align: center;
+    margin: 60px;
+}
+.text-15{
+    text-align: center;
+    margin: 60px;
+}
+.text-16{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+}
+.bigdog-1{
+   display: flex;
+   flex-direction: row;
+   margin: 20px;
+}
+.bigdog-2{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+.dog-1{
+    text-align: center;
+    width: 25%;
+    height: 25%;
+}
+.img-7{
+    border-radius:100% ;
+}
+.text-17{
+    width: 33%;
+}
+.text-18{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-19{
+    color: rgba(0, 0, 0, 0.404);
+}
+.pet{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    background-color: #f8f9fa;
+}
+.table-1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.table-2{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+    background-color: white;   
+}
+.text-20{
+    margin: 10px;
+    text-align: center;
+}
+.img-5{
+    background-image: url(img/5.png);
+    background-size: cover;
+    width: 41px;
+    height: 41px;
+    margin-top: 38px;
+    margin-left: 84px;
+}
+.size{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
