@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\NguoiDungController;
 use App\Http\Controllers\TrangChuController;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,5 +21,10 @@ Route::get('nguoi-dung',[NguoiDungController::class, 'index'])->name('danh-sach-
 Route::get('nguoi-dung/them-moi',[NguoiDungController::class, 'create'])->name('form-them-moi-nguoi-dung');
 Route::post('nguoi-dung/them-moi-2',[NguoiDungController::class, 'store'])->name('them-moi-nguoi-dung');
 
-Route::get('trang-chu',[TrangChuController::class, 'index']);
-Route::get('trang-chu/trang-chu',[TrangChuController::class, 'create']);
+Route::get('/',[TrangChuController::class, 'index']);
+Route::get('trang-chu',[TrangChuController::class, 'create']);
+
+
+Route::get('/',[UserController::class, 'index']);
+Route::get('dang-nhap',[UserController::class, 'DangNhap'])->name('form-dang-nhap');
+Route::get('dang-ky',[UserController::class, 'DangKy'])->name('form-dang-ky');
